@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Navbar Static top Template</title>
+    <meta name="generator" content="Bootply" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="css/styles.css" rel="stylesheet">
+    <style type="text/css">
+      body { padding-bottom: 70px; }
+      #nav-title {
+        text-align: center;
+        margin-top: 12px;
+      }
+      
+    </style>
+  </head>
+  <body>
+<div class="navbar navbar-default navbar-static-top">
+  <div class="container">
+    <div class="navbar-header col-md-4">
+      <a class="navbar-brand" href="#">BuzzLaunch</a>
+    </div>
+    
+
+    <div class="col-md-4">
+      <h3 id="nav-title">Select Tags</h3>
+    </div>
+
+    <div class="col-md-4">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">Log Out</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+
+<div class="container">
+  <div class="alert alert-info alert-dismissible" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <p class="lead text-center">
+        Search or browse for tags relevant to your startup.
+        <br/>
+        We'll use these tags to find the best blogs for you.
+        <br/>
+      </p>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      
+      <ul class="nav nav-pills nav-justified">
+        <li class="active"><a data-toggle="tab" href="#search">Search</a></li>
+        <li><a data-toggle="tab" href="#browse">Browse</a></li>
+      </ul>
+
+      <br />
+
+      <div class="tab-content">
+        <div id="search" class="tab-pane active">
+          
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for...">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button">Go!</button>
+            </span>
+          </div><!-- /input-group -->
+
+          <br />
+
+          <ul class="list-group">
+            <li class="list-group-item">Cras justo odio
+              <span class="glyphicon glyphicon-plus pull-right" aria-hidden="true"></span>
+            </li>
+            <li class="list-group-item">Dapibus ac facilisis in
+              <span class="glyphicon glyphicon-plus pull-right" aria-hidden="true"></span>
+            </li>
+            <li class="list-group-item">Morbi leo risus
+              <span class="glyphicon glyphicon-plus pull-right" aria-hidden="true"></span>
+            </li>
+            <li class="list-group-item">Porta ac consectetur ac
+              <span class="glyphicon glyphicon-plus pull-right" aria-hidden="true"></span>
+            </li>
+            <li class="list-group-item">Vestibulum at eros
+              <span class="glyphicon glyphicon-plus pull-right" aria-hidden="true"></span>
+            </li>
+          </ul>
+        </div>
+        <div id="browse" class="tab-pane">
+          <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Library</a></li>
+            <li class="active">Data</li>
+          </ol>
+
+          <ul class="list-group">
+            <li class="list-group-item">Cras justo odio
+              <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+            </li>
+            <li class="list-group-item">Dapibus ac facilisis in
+              <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+            </li>
+            <li class="list-group-item">Morbi leo risus
+              <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+            </li>
+            <li class="list-group-item">Porta ac consectetur ac
+              <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+            </li>
+            <li class="list-group-item">Vestibulum at eros
+              <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Selected Tags</h3>
+        </div>
+        <ul class="list-group">
+          <li class="list-group-item">Cras justo odio
+            <span class="glyphicon glyphicon-remove pull-right" aria-hidden="true"></span>
+          </li>
+          <li class="list-group-item">Dapibus ac facilisis in
+            <span class="glyphicon glyphicon-remove pull-right" aria-hidden="true"></span>
+          </li>
+          <li class="list-group-item">Morbi leo risus
+            <span class="glyphicon glyphicon-remove pull-right" aria-hidden="true"></span>
+          </li>
+          <li class="list-group-item">Porta ac consectetur ac
+            <span class="glyphicon glyphicon-remove pull-right" aria-hidden="true"></span>
+          </li>
+          <li class="list-group-item">Vestibulum at eros
+            <span class="glyphicon glyphicon-remove pull-right" aria-hidden="true"></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+
+</div><!-- /.container -->
+
+<nav class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container">
+    <button type="button" class="btn btn-default btn-lg navbar-btn pull-left">
+      <span class="glyphicon glyphicon-chevron-left pull-left" aria-hidden="true"></span>
+      Directions
+    </button>
+    <button type="button" class="btn btn-default btn-lg btn-primary navbar-btn pull-right">
+      Find Blogs!
+      <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
+    </button>
+  </div>
+</nav>
+
+  <!-- script references -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
